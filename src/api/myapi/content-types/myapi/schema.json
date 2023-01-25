@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "myapis",
+  "info": {
+    "singularName": "myapi",
+    "pluralName": "myapis",
+    "displayName": "Myapi",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "bool": {
+      "type": "boolean",
+      "required": true
+    },
+    "sthText": {
+      "type": "richtext"
+    }
+  }
+}
